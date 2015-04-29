@@ -1,0 +1,49 @@
+.container {
+  margin-top: 15px;
+}
+
+.list-inline-float {
+  list-style-type: none;
+}
+
+.list-inline-float li {
+  float: left;
+  padding: 2px;
+}
+
+.paginated-container {
+  overflow: hidden;
+  left: 0;
+  right: 0;
+}
+
+#image-list {
+  display: inline-block;
+}
+
+#image-list img {
+  display: block;
+  width: 256px;
+  height: 256px;
+}
+
+#varsize-item-list div {
+  padding-top: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#varsize-item-list .small {
+  width: 50px;
+  height: 50px;
+}
+
+#varsize-item-list .medium {
+  width: 75px;
+  height: 75px;
+}
+
+#varsize-item-list .large {
+  width: 230px;
+  height: 230px;
+}
