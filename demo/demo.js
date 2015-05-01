@@ -1,11 +1,11 @@
 (function (window, ElementPagination, undefined) {
 
-  var p1 = new ElementPagination(document.querySelector('#image-list'));
+  var p1 = new ElementPagination(document.querySelector('.example-1__image-list'));
 
-  var prevPageBtn = document.querySelector('.prev-page');
+  var prevPageBtn = document.querySelector('.example-1__controls .prev-page');
   prevPageBtn.style.display = 'none';
 
-  var nextPageBtn = document.querySelector('.next-page');
+  var nextPageBtn = document.querySelector('.example-1__controls .next-page');
 
   prevPageBtn.addEventListener('click', function () {
     p1.previousPage();
